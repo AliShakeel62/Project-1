@@ -1,0 +1,415 @@
+* {
+  font-family: "Kanit", sans-serif;
+  color: white;
+  padding: 0%;
+  margin: 0%;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar-nav .nav-link {
+  color: black !important;
+}
+.carousel-inner{
+  height: 100vh;
+}
+.Container {
+  padding-top: 3vh;
+  height: 50vh;
+  width: 100%;
+  background-color: black;
+  position: relative;
+}
+.Card1 {
+  width: 16vw;
+  margin-left: 8vw;
+}
+
+.Card2 {
+  width: 16vw;
+  margin-left: 6vw;
+}
+.Card4 {
+  width: 16vw;
+  margin-left: 6vw;
+}
+.Card3 {
+  width: 16vw;
+  margin-left: 6vw;
+}
+.image {
+  display: flex;
+  position: relative;
+  width: 14.5vw;
+}
+
+.image img {
+  height: 40vh;
+  width: 14.5vw;
+  border-radius: 12px;
+}
+
+.Content1 {
+  height: 40vh;
+  width: 14.5vw;
+  background-color: black;
+  position: absolute;
+  bottom: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.6s;
+}
+.Content2 {
+  height: 40vh;
+  width: 14.5vw;
+  background-color: black;
+  position: absolute;
+  bottom: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.6s;
+}
+.Content3 {
+  height: 40vh;
+  width: 14.5vw;
+  background-color: black;
+  position: absolute;
+  bottom: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.6s;
+}
+.Content4 {
+  height: 40vh;
+  width: 14.5vw;
+  background-color: black;
+  position: absolute;
+  bottom: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.6s;
+}
+
+.wors{
+  font-size: 2.2em;
+  font-weight: bold;
+  color: white;
+  opacity: 1;
+}
+.wors{
+  font-size: 2.2em;
+  font-weight: bold;
+  color: white;
+  opacity: 1;
+}
+.wors{
+  font-size: 2.2em;
+  font-weight: bold;
+  color: white;
+  opacity: 1;
+}
+.wors{
+  font-size: 2.2em;
+  font-weight: bold;
+  color: white;
+  opacity: 1;
+}
+.Card4:hover .Content4 {
+  opacity: 0.8;
+}
+.Card2:hover .Content2 {
+  opacity: 0.8;
+}
+.Card3:hover .Content3 {
+  opacity: 0.8;
+}
+.Card1:hover .Content1 {
+  opacity: 0.8;
+}
+.box{
+  width: 100%;
+  background-color: black;
+}
+
+ 
+
+.footer {
+  background-color: white;
+  height: auto; 
+  width: 100%;
+  padding-bottom: 2vh; 
+}
+
+.Icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3vh; 
+}
+
+.Icons i {
+  padding: 0.5rem; 
+}
+
+.lastd {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items: center;
+  font-size: small; 
+  margin-top: 1vh; 
+}
+
+.lp {
+  color: black;
+  margin: 0.5rem; 
+}
+
+.lastp {
+  text-align: center;
+  color: black;
+  font-size: small;
+}
+
+@media(max-width:768px){
+  .Content1 {
+
+    height: 69vh;
+    width: 34.5vw;
+    background-color: black;
+    position: absolute;
+    bottom: 78vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.6s;
+  }
+  .Content2 {
+
+    height: 69vh;
+    width: 34.5vw;
+    background-color: black;
+    position: absolute;
+    bottom: 78vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.6s;
+  }
+  .Content3 {
+
+    height: 69vh;
+    width: 34.5vw;
+    background-color: black;
+    position: absolute;
+    bottom: 6.6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.6s;
+  }
+  .Content4 {
+
+    height: 69vh;
+    width: 34.5vw;
+    background-color: black;
+    position: absolute;
+    bottom: 6.6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.6s;
+  }
+  .wors{
+    font-size: 3.2em;
+    font-weight: bold;
+    color: white;
+    opacity: 1;
+  }
+  .image img {
+    height: 69vh;
+    width: 34.5vw;
+    border-radius: 12px;
+  }
+  .Container {
+    padding-top: 3vh;
+    height: 150vh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+  }
+  .Card1 {
+    width: 16vw;
+    margin-left: 12vw;
+  }
+  
+  .Card3 {
+    padding-top: 20px;
+    width: 16vw;
+    margin-left: 12vw;
+  }
+  
+  .Card2 {
+    width: 16vw;
+    margin-left: 6vw;
+  }
+  
+  .Card4 {
+    padding-top: 20px;
+    width: 16vw;
+    margin-left: 6vw;
+  }
+}
+
+@media(max-width:576px){
+  .Content1 {
+  
+    height: 91vh;
+    width: 54.5vw;
+    background-color: black;
+    position: absolute;
+    bottom: 283vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.6s;
+  }
+  .Content2 {
+  
+    height: 91vh;
+    width: 54.5vw;
+    background-color: black;
+    position: absolute;
+    bottom: 190vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.6s;
+  }
+  .Content3 {
+  
+    height: 91vh;
+    width: 54.5vw;
+    background-color: black;
+    position: absolute;
+    bottom: 99vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.6s;
+  }
+  .Content4 {
+  
+    height: 91vh;
+    width: 54.5vw;
+    background-color: black;
+    position: absolute;
+    bottom: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.6s;
+  }
+  .Content h1 {
+    font-size: 4.2em;
+    font-weight: bold;
+    color: white;
+    opacity: 1;
+  }
+  .image img {
+    height: 89vh;
+    width: 54.5vw;
+    border-radius: 12px;
+  }
+  .Container {
+    padding-top: 3vh;
+    height: 375vh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+  }
+  .Card1 {
+    width: 16vw;
+    margin-left: 20vw;
+  }
+  
+  .Card3 {
+    padding-top: 20px;
+    width: 16vw;
+    margin-left: 20vw;
+  }
+  
+  .Card2 {
+    padding-top: 20px;
+    width: 16vw;
+    margin-left: 20vw;
+  }
+  
+  .Card4 {
+    padding-top: 20px;
+    width: 16vw;
+    margin-left: 20vw;
+  }
+}
+
+
+
+
+
+.Firstimage{
+  height: 90vh;
+  width: 98%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.Firstimage img{
+  margin-top: 6vh;
+  margin-left: 2vw;
+  height: 82vh;
+  width: 26vw;
+}
+.detail{
+  margin-top: 6vh;
+  padding: 2em;
+height: 80vh;
+width: 40vw;
+  border: solid 2px black;
+
+ 
+}
+.detail p,h1{
+  font-family:sans-serif;
+  font-size: 1.3em;
+}
+
+.center{
+  margin-top: 4vh;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+}
+
+/* .Top{
+  height: 80vh;
+  width: 100%;
+} */
